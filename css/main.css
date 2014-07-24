@@ -122,8 +122,32 @@ a:hover,a:focus{color:#5173bd;}
 	-o-background-size:cover;
 	background-size:cover;
 	}
-
+	
+.thankshead{
+	position:relative;
+	padding:5px 5px;
+	color:#FFF;
+	text-align:center;
+	text-shadow:0 1px 0 rgba(0,0,0,.1);
+	background-color:#6883cc;
+	background-image:url("../images/header.jpg");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	}
+	
 .masthead .container{
+	animation:fadein 2s;
+	-moz-animation:fadein 2s;
+	-webkit-animation:fadein 2s;
+	-o-animation:fadein 2s;
+	}
+	
+	.thankshead .container{
 	animation:fadein 2s;
 	-moz-animation:fadein 2s;
 	-webkit-animation:fadein 2s;
@@ -542,6 +566,9 @@ line-height: 40px;
  margin-top: 30px;
 }
  .masthead {
+padding: 40px 15px;
+}
+ .thankshead {
 padding: 40px 15px;
 }
 }
